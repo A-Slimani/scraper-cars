@@ -1,12 +1,4 @@
-{'name': '2007 Toyota Crown Royal Premium Edition Auto', 'Odometer': '120,000 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '6cyl 3.0L Petrol'}
-{'name': '2010 Toyota Crown Majesta Auto', 'Odometer': '89,750 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '8cyl 4.6L Petrol'}
-{'name': '2003 Toyota Crown Athlete V Auto', 'Odometer': '127,100 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '6cyl 2.5L Turbo Petrol'}
-{'name': '2017 Toyota Crown Athlete S J-Frontier Limited Auto', 'Odometer': '71,000 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '2.5i/105kW Hybrid'}
-{'name': '2008 Toyota Crown Hybrid Auto', 'Odometer': '86,986 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '3.5i Hybrid'}
-{'name': '2022 Toyota Crown Crossover G Auto AWD AZSH35', 'Odometer': '3,300 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '2.5i/163kW Hybrid'}
-{'name': '2018 Toyota Crown Hybrid RS Advance Auto', 'Odometer': '109,227 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '3.5 Hybrid'}
-{'name': '2009 Toyota Crown Hybrid Auto', 'Odometer': '38,411 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '3.5i Hybrid'}
-{'name': '2011 Toyota Crown Majesta Auto', 'Odometer': '112,350 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '8cyl 4.6L Petrol'}
-{'name': '2018 Toyota Crown Majesta Auto', 'Odometer': '20,382 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '3.5i Hybrid'}
-{'name': '2006 Toyota Crown Royal Saloon Auto', 'Odometer': '84,000 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '6cyl 3.0L Petrol'}
-{'name': '2023 Toyota Crown Crossover RS Advanced Auto AWD TZSH35', 'Odometer': '3,000 km', 'Body Style': 'Sedan', 'Transmission': 'Automatic', 'Engine': '2.4T/257kW Hybrid'}
+current offset: 0
+current offset: 12
+all pages completed
+completed car list: 16
