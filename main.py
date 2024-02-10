@@ -2,8 +2,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from datetime import date
 from random import randint
 import csv
+import os
 
 completed_car_list = []
 
@@ -60,14 +62,18 @@ if __name__ == '__main__':
   get_current_list(driver)
   
   print(f"completed car list: {len(completed_car_list)}")
-  with open('cars.csv', 'w') as f:
-    writer = csv.writer(f)
 
-    # write the header orw
-    writer.writerow(completed_car_list[0].keys())
+  if os.path.exists('cars.csv'):
+    with open('cars.csv', 'r') as f:
+      write = csv.writer(f)
 
-    # write the data
-    for car in completed_car_list:
-      writer.writerow(car.values())
+  else:
+    with open('cars.csv', 'w') as f:
+      writer = csv.writer(f)
+
+      # write the header row 
+      writer.writerow(completed_car_list[0].keys())
+
+      # write the data
   
   driver.close()
