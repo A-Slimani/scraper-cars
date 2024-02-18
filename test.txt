@@ -1,4 +1,0 @@
-current offset: 0
-current offset: 12
-all pages completed
-completed car list: 16

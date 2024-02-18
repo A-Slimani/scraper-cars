@@ -5,7 +5,7 @@ from random import randint
 from datetime import date
 
 
-def get_details(driver, completed_car_list):
+def get_details(driver, completed_car_list) -> bool:
   car_list = WebDriverWait(driver, randint(1, 5)).until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'listing-item')))
 
   for car in car_list:
@@ -37,3 +37,5 @@ def get_details(driver, completed_car_list):
     current_car_obj.update({'link': car_link.get_attribute('href')}) 
 
     completed_car_list.append(current_car_obj)
+  
+  return True
