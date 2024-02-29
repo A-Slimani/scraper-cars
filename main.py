@@ -12,7 +12,7 @@ import os
 completed_car_list = []
 
 # I think offset gives me the "login for price" error 
-def get_current_list_url_offset(driver):
+def get_carsales_list(driver):
   offset = 0
   while True:
     try:
@@ -25,25 +25,9 @@ def get_current_list_url_offset(driver):
       print('all pages completed')
       break
 
-# button offset doesnt help either
-def get_current_list_button_offset(driver):
-  url = f"https://www.carsales.com.au/cars/toyota/crown/new-south-wales-state/?sort=LastUpdated"
-  driver.get(url)
-  while True:
-    try:
-      get_details(driver, completed_car_list)
-      next_page = WebDriverWait(driver, randint(5, 10)).until(EC.element_to_be_clickable((By.CLASS_NAME, 'page-link.next')))
-      next_page.click()
-    except: 
-      print('all pages completed')
-      break
-
 if __name__ == '__main__':
   driver = create_driver_chrome()
-  if not get_current_list_url_offset(driver):
-    driver = create_driver_firefox()
-    get_current_list_url_offset(driver)
-    pass
+  get_carsales_list(driver)
 
   print(f"completed car list: {len(completed_car_list)}")
 
