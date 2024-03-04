@@ -11,7 +11,6 @@ import os
 
 completed_car_list = []
 
-# I think offset gives me the "login for price" error 
 def get_carsales_list(driver):
   offset = 0
   while True:
